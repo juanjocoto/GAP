@@ -1,0 +1,180 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/*HEADER STYLE*/
+.title-style{
+    padding: 10px 0 10px 0;
+    background:  #1f77a7
+}
+
+.title-style h1{
+    padding-left: 20%;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/*BODY STYLE*/
+.first-section{
+    margin-top: 30px;
+}
+
+.first-section h4{
+    color: #f1c47b;
+}
+
+.second-section {
+    overflow: auto;
+    background-color: #ebebeb;
+}
+
+.content{
+    margin: 30px 40px 30px 40px;
+}
+
+.content h4{
+    color: #f1c47b;
+}
+
+.content h2{
+    margin: 30px 0 20px 0;
+    text-align: center;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
+.box1{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdada;
+    background-color: #ffffff;
+}
+
+.box1 .col-sm-4 h5{
+    color: #a7a6a6;
+}
+
+.box1 img{
+    width:200px;
+    height:250px;
+}
+
+.box2{
+    text-align: center;
+    position: relative;
+    top: 35px;
+    left: 15%;
+    width: 70%;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdada;
+    background-color: #ffffff;
+}
+
+.box2-content{
+    margin: 0 30px 0 30px;
+}
+
+.box2 #aquamarine > h4{
+    margin: 20px 0 20px 20px;
+    color: #469eb9;
+}
+
+.box2 #normal > h4{
+    margin: 20px 20px 20px 0;
+    color: #bbbbbb;
+    font-weight: 400;
+}
+
+.box3{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdada;
+    background-color: #ffffff;
+}
+
+.box3-content{
+    margin: 70px 30px 50px 30px;
+}
+
+.box3 img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.box3 #mini-title > h4{
+    color: #b2d2e0;
+    font-weight: 400;
+}
+ ul{
+    margin-top: 20px;
+    list-style-image: url('../content/icons/icons8-cancel-30.png');
+ }
+ 
+.box3-list li{
+    font-style: italic;
+    font-size: large;
+    color: #8f8f8f;
+}
+
+.box3 p{
+    color: #a0a0a0;
+}
+
+.box3 span img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.box3 span{
+    color: #8bc0d1;
+    text-decoration: underline;
+}
+
+.box3 button{
+    margin: 30px auto 0;
+    display: block;
+}
+
+.button{
+    background-color: #feaf1e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button img{
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+}
+
+.signature p{
+    text-align: center;
+    text-decoration: none;
+    color: #f9ce83;
+}
+
+/*FOOTER*/
+footer{
+    padding-bottom: 30px;
+}
+
+/*GLOBAL*/
+.bold-text{
+    font-weight: bold;
+}
